@@ -71,10 +71,11 @@ jQuery(function ($) {
     loop: true,
     margin: 20,
     rtl:true,
+    dots:false,
     nav:true,
     responsive: {
       0: {
-        items: 2,
+        items: 1,
         nav: true,
 
       },
