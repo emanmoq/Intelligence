@@ -567,6 +567,40 @@ footer .socialIcons{
     color:var(--sub-font-color)
 
 }
+.smallHero .navbar-expand-lg .navbar-nav{
+width:auto
+}
+.smallHero .navbar-brand.logo{
+    margin-left:100px;
+}
+.smallHero .subscribeBox{
+    margin-top:0;
+    display: inline-block;
+    float: left;
+}
+.smallHero .subscribeForm{
+    margin:0;
+}
+.smallHero .subscribeBox .form-group{
+    margin-bottom: 0;
+}
+.hero.smallHero{
+    padding-top:15px;
+    padding-bottom: 190px;
+    background-size: cover;
+}
+.smallcopyRight.copyRights{
+    padding:0;
+    border-top:0;
+    text-align: center;
+    color:var(--main-color)
+}
+.smallFooter{
+    padding:0;
+}
+.smallContact{
+    padding:0;
+}
 @media(min-width:300px) and (max-width:767px){
     .navbar-expand-lg .navbar-nav{
         width:100%;
